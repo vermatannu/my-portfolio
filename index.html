@@ -1,0 +1,704 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tannu Verma | Full Stack Developer</title>
+
+    <meta
+      name="description"
+      content="Tannu Verma - Full Stack Developer specializing in React.js, Node.js, Express.js, PostgreSQL and modern web applications."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.goo+gleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+      <div class="logo">Tannu<span>.</span></div>
+
+      <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="Tannu_CV.pdf" class="nav-resume" target="_blank">
+        Resume <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+
+      <div class="menu-btn" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+      <!-- Animated Background -->
+
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+
+      <div class="hero-content">
+        <p class="small-heading"><span></span> Welcome to my portfolio</p>
+
+        <h1>Hi, I'm <span>Tannu Verma</span></h1>
+
+        <h2>Full Stack Developer</h2>
+
+        <p class="hero-description">
+          I build scalable, secure and user-friendly web applications using
+          React.js, Node.js, Express.js, PostgreSQL and modern development
+          technologies.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn">
+            Explore My Work
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+          <a
+            href="Tannu_CV.pdf"
+            target="_blank"
+            class="btn secondary-btn"
+          >
+            <i class="fa-solid fa-download"></i>
+            Download Resume
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a
+            href="https://github.com/vermatannu"
+            target="_blank"
+            title="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/tannu-verma-5139a9228/"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a href="mailto:tannuv145@gmail.com" title="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Profile -->
+
+      <div class="hero-profile">
+        <div class="profile-ring">
+          <!-- Replace profile.jpg with your photo -->
+
+          <img src="images/profile.jpeg" alt="Tannu Verma" />
+        </div>
+
+        <div class="floating-badge badge-one">
+          <i class="fa-brands fa-react"></i>
+          React.js
+        </div>
+
+        <div class="floating-badge badge-two">
+          <i class="fa-brands fa-node-js"></i>
+          Node.js
+        </div>
+
+        <div class="floating-badge badge-three">
+          <i class="fa-solid fa-database"></i>
+          PostgreSQL
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+      <div class="section-title">
+        <p>Get To Know Me</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-container">
+        <div class="about-text">
+          <h3>Turning ideas into <span>real applications.</span></h3>
+
+          <p>
+            I am a Full Stack Developer with 2+ years of professional experience
+            in designing, developing and maintaining scalable web applications.
+          </p>
+
+          <p>
+            My experience includes working with React.js, Node.js, Express.js,
+            PostgreSQL, MongoDB and MySQL. I enjoy building RESTful APIs,
+            database-driven applications and responsive user interfaces.
+          </p>
+
+          <p>
+            At Bira Ventures, I worked on the UP Panel — a Municipal Tax
+            Management Platform covering Property, Water and Waste modules. I
+            also worked with <strong>InPrisma ORM</strong> for database
+            operations and backend development.
+          </p>
+
+          <div class="about-stats">
+            <div>
+              <strong>2+</strong>
+              <span>Years Experience</span>
+            </div>
+
+            <div>
+              <strong>5+</strong>
+              <span>Projects</span>
+            </div>
+
+            <div>
+              <strong>10+</strong>
+              <span>Technologies</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <div class="profile-circle">TV</div>
+
+          <h3>Tannu Verma</h3>
+
+          <p>Full Stack Developer</p>
+
+          <div class="availability">
+            <span></span>
+            Open to opportunities
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section skills-section">
+      <div class="section-title">
+        <p>My Expertise</p>
+        <h2>Technical <span>Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+
+          <h3>Frontend</h3>
+
+          <div class="skill-list">
+            <span>React.js</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>Redux Toolkit</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Material UI</span>
+            <span>Tailwind CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-server"></i>
+          </div>
+
+          <h3>Backend</h3>
+
+          <div class="skill-list">
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>REST APIs</span>
+            <span>Authentication</span>
+            <span>RBAC</span>
+            <span>Business Logic</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-database"></i>
+          </div>
+
+          <h3>Database & ORM</h3>
+
+          <div class="skill-list">
+            <span>PostgreSQL</span>
+            <span>MongoDB</span>
+            <span>MySQL</span>
+            <span>InPrisma ORM</span>
+            <span>Sequelize</span>
+            <span>Mongoose</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-toolbox"></i>
+          </div>
+
+          <h3>Tools & Testing</h3>
+
+          <div class="skill-list">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>GitLab</span>
+            <span>Cypress</span>
+            <span>Postman</span>
+            <span>Jira</span>
+            <span>CI/CD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experience" class="section">
+      <div class="section-title">
+        <p>My Journey</p>
+        <h2>Work <span>Experience</span></h2>
+      </div>
+
+      <div class="timeline">
+        <!-- Bira -->
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="experience-card">
+            <div class="experience-top">
+              <div>
+                <h3>Bira Ventures Pvt. Ltd.</h3>
+                <p>Full Stack Developer</p>
+              </div>
+
+              <span> Sept 2025 – August 2026 </span>
+            </div>
+
+            <p class="location">
+              <i class="fa-solid fa-location-dot"></i>
+              Ranchi, India
+            </p>
+
+            <ul>
+              <li>
+                Developed and maintained the
+                <strong>UP Panel Municipal Tax Management Platform</strong>
+                for Property, Water and Waste modules.
+              </li>
+
+              <li>
+                Developed RESTful APIs using
+                <strong>Node.js, Express.js and PostgreSQL</strong>.
+              </li>
+
+              <li>
+                Worked with <strong>InPrisma ORM</strong>
+                for database operations.
+              </li>
+
+              <li>
+                Implemented authentication, RBAC, validations, business logic
+                and error handling.
+              </li>
+
+              <li>
+                Developed workflows for property registration, mutation,
+                re-assessment, tax calculation, demand generation and payments.
+              </li>
+
+              <li>
+                Integrated APIs with React.js using React Hook Form and Zod.
+              </li>
+            </ul>
+
+            <div class="tech-tags">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>PostgreSQL</span>
+              <span>InPrisma</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jai -->
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="experience-card">
+            <div class="experience-top">
+              <div>
+                <h3>Jai Infoway Pvt. Ltd.</h3>
+                <p>Software Engineer</p>
+              </div>
+
+              <span> May 2024 – July 2025 </span>
+            </div>
+
+            <p class="location">
+              <i class="fa-solid fa-location-dot"></i>
+              Ranchi, India
+            </p>
+
+            <ul>
+              <li>
+                Developed secure RESTful APIs using Node.js, Express.js, MongoDB
+                and PostgreSQL.
+              </li>
+
+              <li>
+                Built reusable React.js components using React Hooks and React
+                Hook Form.
+              </li>
+
+              <li>Worked with TypeScript, Sequelize and Mongoose.</li>
+
+              <li>
+                Implemented Cypress end-to-end testing and CI/CD workflows.
+              </li>
+            </ul>
+
+            <div class="tech-tags">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>PostgreSQL</span>
+              <span>TypeScript</span>
+              <span>Cypress</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section projects-section">
+      <div class="section-title">
+        <p>What I've Built</p>
+        <h2>Featured <span>Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <!-- UP PANEL -->
+
+        <div class="project-card featured-project">
+          <div class="project-number">01</div>
+
+          <div class="project-icon">
+            <i class="fa-solid fa-building-columns"></i>
+          </div>
+
+          <h3>UP Panel</h3>
+
+          <p>
+            Municipal Tax Management Platform designed to manage Property, Water
+            and Waste revenue operations.
+          </p>
+
+          <ul>
+            <li>Property Registration & Mutation</li>
+            <li>Tax Calculation & Demand Generation</li>
+            <li>Payment & Transaction Management</li>
+            <li>ULB-wise Dashboards & Filtering</li>
+            <li>Excel Data Processing</li>
+          </ul>
+
+          <div class="tech-tags">
+            <span>React.js</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>PostgreSQL</span>
+            <span>InPrisma ORM</span>
+          </div>
+        </div>
+
+        <!-- INTELLIBOOKS -->
+
+        <div class="project-card">
+          <div class="project-number">02</div>
+
+          <div class="project-icon">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+
+          <h3>Intellibooks</h3>
+
+          <p>
+            Full-stack Restaurant Management System for managing orders, tables
+            and menu operations.
+          </p>
+
+          <ul>
+            <li>Order Management</li>
+            <li>Table Management</li>
+            <li>Dine-in & Takeaway</li>
+            <li>RESTful APIs</li>
+            <li>Responsive UI</li>
+          </ul>
+
+          <div class="tech-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>MySQL</span>
+            <span>Material UI</span>
+          </div>
+
+          <a
+            href="https://intellibooks.io/"
+            target="_blank"
+            class="project-link"
+          >
+            Visit Project
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+
+        <!-- DRAWSYNC -->
+
+        <div class="project-card">
+          <div class="project-number">03</div>
+
+          <div class="project-icon">
+            <i class="fa-solid fa-pen-ruler"></i>
+          </div>
+
+          <h3>DrawSync</h3>
+
+          <p>
+            Real-time collaborative whiteboard application allowing multiple
+            users to draw and communicate together.
+          </p>
+
+          <ul>
+            <li>Real-time Drawing</li>
+            <li>Socket.io Communication</li>
+            <li>Room-based Collaboration</li>
+            <li>JWT Authentication</li>
+            <li>Real-time Chat</li>
+          </ul>
+
+          <div class="tech-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Socket.io</span>
+            <span>MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHAT I DO ================= -->
+
+    <section class="section services-section">
+      <div class="section-title">
+        <p>My Capabilities</p>
+        <h2>What I <span>Do</span></h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fa-solid fa-layer-group"></i>
+
+          <h3>Full Stack Development</h3>
+
+          <p>
+            Building complete web applications from responsive frontend
+            interfaces to scalable backend services.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-plug"></i>
+
+          <h3>API Development</h3>
+
+          <p>
+            Designing secure and maintainable RESTful APIs with proper
+            validation, authentication and business logic.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-database"></i>
+
+          <h3>Database Development</h3>
+
+          <p>
+            Designing database-driven applications using PostgreSQL, MongoDB and
+            MySQL with ORM tools.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <i class="fa-solid fa-vial"></i>
+
+          <h3>Testing</h3>
+
+          <p>
+            Writing automated end-to-end tests with Cypress to ensure
+            application reliability and quality.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section class="section education-section">
+      <div class="section-title">
+        <p>My Education</p>
+        <h2>Academic <span>Background</span></h2>
+      </div>
+
+      <div class="education-container">
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+
+          <div>
+            <h3>Master of Computer Applications</h3>
+
+            <p>Uttaranchal University</p>
+
+            <span> 2024 – 2026 </span>
+          </div>
+        </div>
+
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+
+          <div>
+            <h3>Bachelor of Science in Information Technology</h3>
+
+            <p>Ranchi Women's College</p>
+
+            <span> 2019 – 2022 • 74% </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact-section">
+      <div class="section-title">
+        <p>Let's Connect</p>
+        <h2>Get In <span>Touch</span></h2>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-text">
+          <h3>Have a project in mind?</h3>
+
+          <p>
+            I'm always open to discussing new opportunities, interesting
+            projects and ideas.
+          </p>
+
+          <a href="mailto:tannuv145@gmail.com" class="btn primary-btn">
+            Say Hello
+            <i class="fa-solid fa-paper-plane"></i>
+          </a>
+        </div>
+
+        <div class="contact-info">
+          <a href="mailto:tannuv145@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+
+            <div>
+              <span>Email</span>
+              <strong>tannuv145@gmail.com</strong>
+            </div>
+          </a>
+
+          <a href="tel:+917857979735">
+            <i class="fa-solid fa-phone"></i>
+
+            <div>
+              <span>Phone</span>
+              <strong>+91 7857979735</strong>
+            </div>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/tannu-verma-5139a9228/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+
+            <div>
+              <span>LinkedIn</span>
+              <strong>Let's connect</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <div class="footer-logo">Tannu<span>.</span></div>
+
+      <p>Designed & Developed by Tannu Verma</p>
+
+      <div class="footer-social">
+        <a
+          href="https://www.linkedin.com/in/tannu-verma-5139a9228/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="mailto:tannuv145@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+      <p class="copyright">© 2026 Tannu Verma. All rights reserved.</p>
+    </footer>
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
